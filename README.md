@@ -1,13 +1,13 @@
-# ![Car Counting and Detection Using OpenCV in Real Time]
+# ![Car Counting and Detection Using OpenCV in Real Time]()
 This repository represents a Deep Learning-based system designed to detect and count vehicles in a video stream. Utilizing a YOLOv8 model, the system classifies vehicles into different categories such as cars, buses, trucks, and motorbikes.
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Usage](#usage)
 - [Features](#features)
-- [Library Installation](#library installation)
+- [Library Installation](#library-installation)
 - [Conclusion](#conclusion)
-
+s
 ## Introduction
 This projects utilizes the power of YOLOV8 and OpenCV model  to Classify between different vehicles across different classes and counting them in real time. This project is ideal for real-time traffic monitoring and analysis, providing insights into vehicle counting and density.
 
