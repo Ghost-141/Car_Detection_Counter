@@ -1,0 +1,33 @@
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9.7
+  - cuda-version=12.6=39
+  - numpy-base=1.26.4=py39h65a83cf_0
+  - pillow=11.0.0=py39h096bfcc_1
+  - pip=24.2=py39haa95532_0
+  - python=3.9.7=h900ac77_3_cpython
+  - python_abi=3.9=5_cp39
+  - pytorch=2.5.1=py3.9_cuda11.8_cudnn9_0
+  - pytorch-cuda=11.8=h24eeafa_6
+
+  - pip:
+      - cvzone==1.5.6
+      - filterpy==1.4.5
+      - hydra-core==1.3.2
+      - jedi==0.19.2
+      - matplotlib-inline==0.1.7
+      - numpy==2.2.1
+      - opencv-python==4.10.0.84
+      - pandas==2.2.3
+      - python-dateutil==2.9.0.post0
+      - scikit-image==0.19.3
+      - tensorboard==2.18.0
+      - tensorboard-data-server==0.7.2
+      - torchaudio==2.5.1
+      - torchvision==0.20.1
+      - ultralytics==8.3.60
