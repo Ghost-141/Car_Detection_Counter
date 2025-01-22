@@ -34,12 +34,13 @@ These are mainly used to build this project. But there are other dependencies wh
 For Conda installation:
 - make sure to run the conda command prompt in `Administrator` mode 
 - To create a new environment with all the required libraries
+
 \`\`\`
-conda env create -n my_new_env -f environment.yml
+`conda env create -n my_new_env -f environment.yml`
 \`\`\`
 - To install required libraries in existing conda environment(`my_new_env`) 
 \`\`\`
-conda env update -n my_new_env -f environment.yml
+`conda env update -n my_new_env -f environment.yml`
 \`\`\`
 ## Conclusion
 - Having any issue or question feel free to reach out
