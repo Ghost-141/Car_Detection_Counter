@@ -1,4 +1,4 @@
-# ![Car Detection & Counter Logo](https://github.com/Ghost-141/Car_Detection_Counter/blob/main/cover.png)[Car Counting and Detection Using OpenCV in Real Time]
+# ![Car Detection & Counter Logo](https://github.com/Ghost-141/Car_Detection_Counter/blob/main/cover.png) Car Counting and Detection Using OpenCV in Real Time
 This repository represents a Deep Learning-based system designed to detect and count vehicles in a video stream. Utilizing a YOLOv8 model, the system classifies vehicles into different categories such as cars, buses, trucks, and motorbikes. 
 
 ## Table of Contents
@@ -32,16 +32,22 @@ This projects utilizes the power of YOLOV8 and OpenCV model  to Classify between
 These are mainly used to build this project. But there are other dependencies which will be installed automatically while installing them from the yml file. Make sure to install cuda(11.8/12.6) for GPU support if you have a dedicated nvidia gpu in your system. You can install the above mentioned libraries with specific version from [`environment.yml`](environment.yml).
 
 For Conda installation:
-- make sure to run the conda command prompt in `Administrator` mode 
-- To create a new environment with all the required libraries
+- make sure to run the Anaconda Prompt in `Administrator` mode 
+- To create a new environment with all the required libraries run the below command
 
 ```bash 
 conda env create -n my_new_env -f environment.yml
 ```
-- To install required libraries in existing conda environment(`my_new_env`) 
+- To install required libraries in existing conda environment named(`my_new_env`) run the below command
 ```bash
 conda env update -n my_new_env -f environment.yml
 ```
+- To install using pip use the below command with [`requirements.txt`](requirements.txt) file below:
+```bash
+pip install -r requirements.txt
+```
+
+
 ## Conclusion
 - Having any issue or question feel free to reach out
 - Please give it a star if you find it useful

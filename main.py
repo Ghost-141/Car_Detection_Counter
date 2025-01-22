@@ -4,9 +4,12 @@ import math
 import cvzone
 import numpy as np
 from sort import *
+import torch
 
 cap = cv2.VideoCapture("Car_Detection_Counter/car2lane.mp4")
 model = YOLO("Car_Detection_Counter/yolov8s.pt")
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model.to(device)
 mask = cv2.imread("Car_Detection_Counter/mask.png")  
 
 tracker_lane1 = Sort(max_age=20, min_hits=3, iou_threshold=0.4)
