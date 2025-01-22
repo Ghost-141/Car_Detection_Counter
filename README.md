@@ -7,18 +7,18 @@ This repository represents a Deep Learning-based system designed to detect and c
 - [Features](#features)
 - [Library Installation](#library-installation)
 - [Conclusion](#conclusion)
-s
+
 ## Introduction
 This projects utilizes the power of YOLOV8 and OpenCV model  to Classify between different vehicles across different classes and counting them in real time. This project is ideal for real-time traffic monitoring and analysis, providing insights into vehicle counting and density.
 
 ## Usage
 - Download the folder and install all the libraries mentioned in library section
 - Ensure that the [`yolov8s.pt`](yolov8s.pt) or any of the yolo model file is in the project directory
-- Run the [`Car_Detection_Counter.py`](Car_Detection_Counter.py) file to start counting and detection from any video footage.
+- Run the [`main.py`](main.py) file to start counting and detection from any video footage.
    
 ## Features
-- Classify vehicles with their class names and confidence score in real time
-- Counting the number of cars passing through each lane separately
+- Classify vehicles with their class names and confidence score in real time from video footage
+- Count the number of cars passing through each lane precisely
 - Can be utilized further with multiple lanes in roads
 
 ## Library Installation:  

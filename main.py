@@ -5,9 +5,9 @@ import cvzone
 import numpy as np
 from sort import *
 
-cap = cv2.VideoCapture("C:/Users/Imtiaz/Documents/GitHub/Car_Detection_Counter/car2lane.mp4")
-model = YOLO('C:/Users/Imtiaz/Documents/GitHub/Car_Detection_Counter/yolov8s.pt')
-mask = cv2.imread("C:/Users/Imtiaz/Documents/GitHub/Car_Detection_Counter/mask.png")  
+cap = cv2.VideoCapture("Car_Detection_Counter/car2lane.mp4")
+model = YOLO("Car_Detection_Counter/yolov8s.pt")
+mask = cv2.imread("Car_Detection_Counter/mask.png")  
 
 tracker_lane1 = Sort(max_age=20, min_hits=3, iou_threshold=0.4)
 tracker_lane2 = Sort(max_age=20, min_hits=3, iou_threshold=0.4)
