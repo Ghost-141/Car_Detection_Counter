@@ -9,8 +9,6 @@ opencv-python==4.10.0.84
 pandas==2.2.3
 python-dateutil==2.9.0.post0
 scikit-image==0.19.3
-tensorboard==2.18.0
-tensorboard-data-server==0.7.2
 torchaudio==2.5.1
 torchvision==0.20.1
 ultralytics==8.3.60
